@@ -36,14 +36,10 @@ app.use('/api/', limiter);
 
 // CORS configuration
 const corsOptions = {
-  origin: process.env.NODE_ENV === 'production' 
-    ? [  'https://true-grad.vercel.app']
-        
-    : ['http://localhost:3000'],
-  credentials: true,
+  origin: process.env.FRONTEND_URL, // only allow your frontend
+  credentials: true,                // allow cookies/auth headers
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
-  optionsSuccessStatus: 200
 };
 
 app.use(cors(corsOptions));

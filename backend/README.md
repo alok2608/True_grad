@@ -1,18 +1,38 @@
-# AI Chat Backend
+# AI Messenger: Full-Stack Chat App
 
-A complete Node.js backend API for the AI Chat application built with Express, MongoDB, and Socket.io.
+A full-stack AI chat application built with React, Node.js, Express, MongoDB, and Socket.io. Features real-time messaging, user authentication, credits system, and a modern UI.
 
-## Features
+## 🚀 Features
 
-- **Authentication**: JWT-based authentication with refresh tokens
-- **User Management**: Registration, login, profile management
-- **Chat System**: Real-time messaging with conversation management
+### Frontend (React + Vite)
+- **Modern UI**: Clean, responsive design with Tailwind CSS
+- **Authentication**: Sign up, sign in, and protected routes
+- **Real-time Chat**: Live messaging with AI responses
+- **State Management**: Redux Toolkit for global state
 - **Credits System**: Token-based usage tracking
-- **Notifications**: Real-time notification system
-- **Security**: Rate limiting, input validation, CORS protection
+- **Notifications**: Real-time notification panel
+- **Responsive Design**: Works on desktop and mobile
 
-## Tech Stack
+### Backend (Node.js + Express)
+- **RESTful API**: Complete CRUD operations
+- **Authentication**: JWT-based auth with refresh tokens
+- **Database**: MongoDB with Mongoose ODM
+- **Real-time**: Socket.io for live updates
+- **Security**: Rate limiting, input validation, CORS
+- **Error Handling**: Comprehensive error management
 
+## 🛠️ Tech Stack
+
+### Frontend
+- **React 18** - UI library
+- **Vite** - Build tool and dev server
+- **Redux Toolkit** - State management
+- **React Router** - Client-side routing
+- **Tailwind CSS** - Styling
+- **Lucide React** - Icons
+- **Axios** - HTTP client
+
+### Backend
 - **Node.js** - Runtime environment
 - **Express.js** - Web framework
 - **MongoDB** - Database
